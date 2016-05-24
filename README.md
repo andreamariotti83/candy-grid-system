@@ -1,5 +1,5 @@
-# candy-grid-system
 Candy grid system
+=================
 
 Usage
 -----
