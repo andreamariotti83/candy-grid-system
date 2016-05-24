@@ -1,6 +1,5 @@
 # Candy grid system
 
-
 ## Quick start
 
 * [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.0.0.zip).
@@ -8,7 +7,11 @@
 
 ## Usage
 
+HTML:
 
+```
+
+```
 
 LESS:
 
@@ -22,18 +25,13 @@ SASS:
 
 ```
 
-
-
 ##  Customization
 
-
-
 ## Author
+
 Andrea Mariotti
 
 * https://github.com/andreamariotti83
-
-
 
 ## Copyright and license
 
