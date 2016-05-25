@@ -36,7 +36,7 @@ candy-grid-system/
 
 ### HTML:
 
-To use this grid, simply include the file with the number of grids 12, 16 or 24 that you want to use, in the `<head>` HTML page.
+To use this grid, simply include the file with the number of grids **12**, **16** or **24** that you want to use, in the `<head>` HTML page.
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.0.0/12-candygs.min.css">
@@ -53,8 +53,8 @@ Add classes to set your default layout, fixed or responsive. You can choose from
 ```
 
 * **mobile** : sets a responsive layout 0 to 100%
-* **small** : sets a responsive layout 720 px to 100%
-* **medium** : sets a responsive layout 960 px to 100%
+* **small** : sets a responsive layout 720px to 100% `min-width: 720px`
+* **medium** : sets a responsive layout 960px to 100% `min-width: 960px`
 
 ```html
 <body>
