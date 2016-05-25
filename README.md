@@ -42,7 +42,7 @@ To use this grid, simply include the file with the number of grids 12, 16 or 24 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.0.0/12-candygs.min.css">
 ```
 
-Add classes to set your default layout, fixed or responsive. You can choose from 17 different options
+Add classes to set your default layout, fixed or responsive. You can choose from **17 different options**
 
 * **candygs** : essential to set the values of the layout and grids, to use the candy grid system
 
@@ -71,11 +71,11 @@ Add classes to set your default layout, fixed or responsive. You can choose from
 ```
 
 You can also choose to have a layout with a **max-width** choosing between these classes
-* **candygs-container** : Set a "max-width" container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
-..* **candygs-container-max-xl-large** : Set a "max-width" container that will be no larger than 1560px
-..* **candygs-container-max-large** : Set a "max-width" container that will be no larger than 1200px
-..* **candygs-container-max-medium** : Set a "max-width" container that will be no larger than 960px
-..* **candygs-container-max-small** : Set a "max-width" container that will be no larger than 720px
+* **candygs-container** : Set a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
+  * **candygs-container-max-xl-large** : Set a *max-width* container that will be no larger than 1560px
+  * **candygs-container-max-large** : Set a *max-width* container that will be no larger than 1200px
+  * **candygs-container-max-medium** : Set a *max-width* container that will be no larger than 960px
+  * **candygs-container-max-small** : Set a *max-width* container that will be no larger than 720px
 
 ```html
 <body>
@@ -101,12 +101,12 @@ Now you can set your grids, which behave according to the choice of your layout
 
 You can also choose to have different values, depending on the resolution
 * **grid-** : For all resolutions
-* **grid-xs-** : Only for mobile `@media (max-width: 767px)```
-* **grid-sm-** : ```css @media (min-width: 768px)```
-* **grid-md-** : ```css @media (min-width: 992px)```
-* **grid-lg-** : ```css @media (min-width: 1200px)```
-* **grid-xl-** : ```css @media (min-width: 1560px)```
-* **grid-xxl-** : ```css @media (min-width: 1920px)```
+* **grid-xs-** : Only for mobile `@media (max-width: 767px)`
+* **grid-sm-** : `@media (min-width: 768px)`
+* **grid-md-** : `@media (min-width: 992px)`
+* **grid-lg-** : `@media (min-width: 1200px)`
+* **grid-xl-** : `@media (min-width: 1560px)`
+* **grid-xxl-** : `@media (min-width: 1920px)`
 
 ```html
 <body>
