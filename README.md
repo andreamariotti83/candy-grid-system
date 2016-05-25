@@ -118,10 +118,12 @@ You can also choose to have different values, depending on the resolution
 ```
 
 In addition to the **grid-** class, you can use:
+
 * **prefix-** 
 * **suffix-**
 * **push-**
 * **pull-**
+
 depending on what you need, with the same variants as the **grid-**
 
 ### LESS:
