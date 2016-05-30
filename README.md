@@ -100,7 +100,7 @@ Now you can set up the Grids, which operate in accordance with the chosen layout
 </body>
 ```
 
-You can also choose different values, depending on the pixel resolution.
+You can also choose different values, depending on the screen resolution.
 * **grid-** : For all resolutions
 * **grid-xs-** : Only for mobile `@media (max-width: 767px)`
 * **grid-sm-** : `@media (min-width: 768px)`
