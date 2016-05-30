@@ -36,15 +36,15 @@ candy-grid-system/
 
 ### HTML:
 
-To use this grid, simply include the file with the number of grids **12**, **16** or **24** that you want to use, in the `<head>` HTML page.
+To use the Grid, you need to include the file with Grid number **12**, **16** or **24** that you want to use in the section `<head>` of the page.
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.0.0/12-candygs.min.css">
 ```
 
-Add classes to set your default layout, fixed or responsive. You can choose from **17 different options**
+Add the class to set up your default layout, whether fixed or responsive. You can choose the layout among **17 different options** and  setting up any up to 8 classes.
 
-* **candygs** : essential to set the values of the layout and grids, to use the candy grid system
+* **candygs** : this is necessary to set up the values of your layout and Grid, in order to use the Candy Grid System.
 
 ```html
 <body>
@@ -52,9 +52,10 @@ Add classes to set your default layout, fixed or responsive. You can choose from
 </body>
 ```
 
-* **mobile** : sets a responsive layout 0 to 100%
-* **small** : sets a responsive layout 720px to 100% `min-width: 720px`
-* **medium** : sets a responsive layout 960px to 100% `min-width: 960px`
+First, decide whether the layout will be set to high, **small** to high, or **medium** to high, responsive **mobile** mode;
+* **mobile** : sets up a responsive layout of 0 to 100%.
+* **small** : sets up a responsive layout  of 720px to 100% `min-width: 720px`
+* **medium** : sets up a responsive layout of 960px to 100% `min-width: 960px`
 
 ```html
 <body>
@@ -62,7 +63,7 @@ Add classes to set your default layout, fixed or responsive. You can choose from
 </body>
 ```
 
-* **showgs** : By inserting this class you have the visibility of the grids in the background
+* **showgs** : This class enables you to visualize the Grid in the background
 
 ```html
 <body>
@@ -70,12 +71,12 @@ Add classes to set your default layout, fixed or responsive. You can choose from
 </body>
 ```
 
-You can also choose to have a layout with a **max-width** choosing between these classes
-* **candygs-container** : Set a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
-  * **candygs-container-max-xl-large** : Set a *max-width* container that will be no larger than 1560px
-  * **candygs-container-max-large** : Set a *max-width* container that will be no larger than 1200px
-  * **candygs-container-max-medium** : Set a *max-width* container that will be no larger than 960px
-  * **candygs-container-max-small** : Set a *max-width* container that will be no larger than 720px
+Then, set up a container for the layout with class **candygs-container** and its variables; a *max-width*, by selecting one of 5 options
+* **candygs-container** : Set up a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
+  * **candygs-container-max-xl-large** : Set up a *max-width* container that will be no larger than 1560px
+  * **candygs-container-max-large** : Set up a *max-width* container that will be no larger than 1200px
+  * **candygs-container-max-medium** : Set up a *max-width* container that will be no larger than 960px
+  * **candygs-container-max-small** : Set up a *max-width* container that will be no larger than 720px
 
 ```html
 <body>
@@ -83,7 +84,7 @@ You can also choose to have a layout with a **max-width** choosing between these
 </body>
 ```
 
-Now you can set your grids, which behave according to the choice of your layout
+Now you can set up the Grids, which operate in accordance with the chosen layout.
 
 ```html
 <body>
@@ -99,7 +100,7 @@ Now you can set your grids, which behave according to the choice of your layout
 </body>
 ```
 
-You can also choose to have different values, depending on the resolution
+You can also choose different values, depending on the pixel resolution.
 * **grid-** : For all resolutions
 * **grid-xs-** : Only for mobile `@media (max-width: 767px)`
 * **grid-sm-** : `@media (min-width: 768px)`
@@ -117,14 +118,14 @@ You can also choose to have different values, depending on the resolution
 </body>
 ```
 
-In addition to the **grid-** class, you can use:
+In additon to the class **grid-**, you can select:
 
 * **prefix-** 
 * **suffix-**
 * **push-**
 * **pull-**
 
-depending on what you need, with the same variants as the **grid-**
+Depending on your needs, choose the same variables as the **grid-**.
 
 ### LESS:
 Coming soon
@@ -159,4 +160,3 @@ Code released under [the MIT license](https://github.com/andreamariotti83/candy-
 
 
 ## Thanks
-[Lorenzo Pezzali](https://github.com/lpwebit) for his contribution to the development of the project
