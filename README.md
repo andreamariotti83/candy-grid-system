@@ -52,7 +52,7 @@ Add the class to set up your default layout, whether fixed or responsive. You ca
 </body>
 ```
 
-First, decide whether the layout will be set to high, **small** to high, or **medium** to high, responsive **mobile** mode;
+First, decide whether the layout will be set to, **small** to high, or **medium** to high, responsive **mobile** mode;
 * **mobile** : sets up a responsive layout of 0 to 100%.
 * **small** : sets up a responsive layout  of 720px to 100% `min-width: 720px`
 * **medium** : sets up a responsive layout of 960px to 100% `min-width: 960px`
