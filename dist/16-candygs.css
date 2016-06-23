@@ -1,9 +1,11 @@
 /*!
- * Candy grid system v1.0.0 (http://candygridsystem.com)
+ * Candy grid system v1.1.0 (http://candygridsystem.com)
  * Copyright 2016 Andrea Mariotti
  * Licensed under MIT (https://github.com/andreamariotti83/candy-grid-system/blob/master/LICENSE)
  */
 *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -17,9 +19,9 @@ candy - settings
 
 /* -- don't to conflict with bootstrap -- */
 .candygs .container {
-    padding-left: inherit;
-    padding-right: inherit;
-    width: inherit !important;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
 }
 
 /* -- set width container -- */
@@ -50,16 +52,16 @@ candy - settings
 }
 
 /* -- set max-width -- */
-.candygs-container-small {
+.candygs-container-sm {
     max-width: 720px;
 }
-.candygs-container-medium {
+.candygs-container-md {
     max-width: 960px;
 }
-.candygs-container-large {
+.candygs-container-lg {
     max-width: 1200px;
 }
-.candygs-container-xl-large {
+.candygs-container-xl {
     max-width: 1560px;
 }
 
@@ -75,7 +77,10 @@ candy - settings
 .showgs,
 .showgs .showgs {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACgAAAAABCAMAAAAlpgcBAAAACVBMVEX75OT////75OSz9PsRAAAAA3RSTlMAAIAXzkf+AAAAKUlEQVR42u3OsQ0AAAQAMPx/tAtILKb2gkZO6lWc+fn5+fn5+fn5bXLSzwUN84eqzZoAAAAASUVORK5CYII=');
-    background-size: 100% 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 @media screen and (max-width: 767px) {
     .showgs .showgs {
@@ -108,8 +113,8 @@ candy - settings
 
 @media (max-width: 767px) {
     .candygs.mobile {
-        margin-left: calc(10px - 1%);
-        margin-right: calc(10px - 1%);
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .candygs.mobile [class*=grid-xs] {
         display: inline;
