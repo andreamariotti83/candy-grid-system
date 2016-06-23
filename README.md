@@ -73,10 +73,10 @@ First, decide whether the layout will be set to, **small** to high, or **medium*
 
 Then, set up a container for the layout with class **candygs-container** and its variables; a *max-width*, by selecting one of 5 options
 * **candygs-container** : Set up a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
-  * **candygs-container-max-xl-large** : Set up a *max-width* container that will be no larger than 1560px
-  * **candygs-container-max-large** : Set up a *max-width* container that will be no larger than 1200px
-  * **candygs-container-max-medium** : Set up a *max-width* container that will be no larger than 960px
-  * **candygs-container-max-small** : Set up a *max-width* container that will be no larger than 720px
+  * **candygs-container-xl** : Set up a *max-width* container that will be no larger than 1560px
+  * **candygs-container-lg** : Set up a *max-width* container that will be no larger than 1200px
+  * **candygs-container-md** : Set up a *max-width* container that will be no larger than 960px
+  * **candygs-container-sm** : Set up a *max-width* container that will be no larger than 720px
 
 ```html
 <body>
@@ -148,7 +148,7 @@ Coming soon
 
 ## Author
 
-Created by Andrea Mariotti. See the official site for more info: http://...
+Created by Andrea Mariotti. See the official site for more info: http://candygridsystem.com
 
 * https://github.com/andreamariotti83
 
