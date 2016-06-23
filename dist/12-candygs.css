@@ -17,9 +17,9 @@ candy - settings
 
 /* -- don't to conflict with bootstrap -- */
 .candygs .container {
-    padding-left: inherit;
-    padding-right: inherit;
-    width: inherit !important;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
 }
 
 /* -- set width container -- */
