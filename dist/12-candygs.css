@@ -108,8 +108,8 @@ candy - settings
 
 @media (max-width: 767px) {
     .candygs.mobile {
-        margin-left: calc(10px - 1%);
-        margin-right: calc(10px - 1%);
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .candygs.mobile [class*=grid-xs] {
         display: inline;
