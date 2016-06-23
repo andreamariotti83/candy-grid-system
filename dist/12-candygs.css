@@ -17,9 +17,9 @@ candy - settings
 
 /* -- don't to conflict with bootstrap -- */
 .candygs .container {
-    padding-left: inherit;
-    padding-right: inherit;
-    width: inherit !important;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
 }
 
 /* -- set width container -- */
@@ -50,16 +50,16 @@ candy - settings
 }
 
 /* -- set max-width -- */
-.candygs-container-small {
+.candygs-container-sm {
     max-width: 720px;
 }
-.candygs-container-medium {
+.candygs-container-md {
     max-width: 960px;
 }
-.candygs-container-large {
+.candygs-container-lg {
     max-width: 1200px;
 }
-.candygs-container-xl-large {
+.candygs-container-xl {
     max-width: 1560px;
 }
 
