@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/andreamariotti83/candy-grid-system/blob/master/LICENSE)
  */
 *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -75,7 +77,10 @@ candy - settings
 .showgs,
 .showgs .showgs {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACgAAAAABCAMAAAAlpgcBAAAACVBMVEX75OT////75OSz9PsRAAAAA3RSTlMAAIAXzkf+AAAAK0lEQVR4AWNgxAWYBj9gIBkwjfpq1FOjnhqNqlFPjRRfjXpq1FOjvmLEBQCgRQ+DAcy5IwAAAABJRU5ErkJggg==');
-    background-size: 100% 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 @media screen and (max-width: 767px) {
     .showgs .showgs {
