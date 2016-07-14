@@ -1,45 +1,22 @@
 # Candy grid system
 
-## Table of contents
-
-* [Quick start](#quick-start)
-* [Usage Html](#html)
-* [Usage Less](#less)
-* [Usage Sass](#sass)
-* [Contributing](#customization)
-* [Author](#author)
-* [Copyright and license](#copyright-and-license)
-
 ## Quick start
 
-* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.0.0.zip).
+* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.1.0.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
-
-### What's included
-
-```
-candy-grid-system/
-├── dist/
-│   ├── 12-candygs.css
-│   ├── 12-candygs.min.css
-│   ├── 12-candygs-rtl.css
-│   ├── 12-candygs-rtl.min.css
-│   ├── 16-candygs.css
-│   ├── 16-candygs.min.css
-│   ├── 16-candygs-rtl.css
-│   ├── 16-candygs-rtl.min.css
-│   ├── 24-candygs.css
-│   ├── 24-candygs.min.css
-│   ├── 24-candygs-rtl.css
-│   ├── 24-candygs-rtl.min.css
-```
 
 ### HTML:
 
 To use the Grid, you need to include the file with Grid number **12**, **16** or **24** that you want to use in the section `<head>` of the page.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.0.0/12-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/12-candygs.min.css">
+```
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/16-candygs.min.css">
+```
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/24-candygs.min.css">
 ```
 
 Add the class to set up your default layout, whether fixed or responsive. You can choose the layout among **17 different options** and  setting up any up to 8 classes.
@@ -141,22 +118,15 @@ Coming soon
 
 ```
 
-##  Contributing
-
-
-
-
 ## Author
 
 Created by Andrea Mariotti. See the official site for more info: http://candygridsystem.com
 
 * https://github.com/andreamariotti83
 
-
 ## Copyright and license
 
 Code and documentation copyright 2016 Andrea Mariotti 
 Code released under [the MIT license](https://github.com/andreamariotti83/candy-grid-system/blob/master/LICENSE).
-
 
 ## Thanks
