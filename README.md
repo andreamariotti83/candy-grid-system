@@ -118,6 +118,8 @@ Coming soon
 ```
 
 ```
+### PSD:
+[Download psd templates](https://github.com/andreamariotti83/candy-grid-system/releases/download/v1.1.1/candy-grid-system-psd.zip).
 
 ## Author
 
