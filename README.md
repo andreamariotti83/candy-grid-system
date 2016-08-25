@@ -2,21 +2,22 @@
 
 ## Quick start
 
-* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.1.0.zip).
+* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.1.1.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
+* Install with [Composer](https://getcomposer.org): `composer require andreamariotti83/candy-grid-system`.
 
 ### HTML:
 
 To use the Grid, you need to include the file with Grid number **12**, **16** or **24** that you want to use in the section `<head>` of the page.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/12-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.1/12-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/16-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.1/16-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.0/24-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.1.1/24-candygs.min.css">
 ```
 
 Add the class to set up your default layout, whether fixed or responsive. You can choose the layout among **17 different options** and  setting up any up to 8 classes.
