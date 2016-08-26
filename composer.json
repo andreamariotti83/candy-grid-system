@@ -1,5 +1,5 @@
 {
-  "name": "candy/candy-grid-system",
+  "name": "candygs/candy-grid-system",
   "description": "The simple and intuitive grid, configurable layout for your every need... Designed and optimized to improve the development of a website. You can choose for 12, 16 or 24 columns.",
   "keywords": [
     "css",
@@ -9,12 +9,15 @@
     "front-end",
     "grid"
   ],
+  "homepage": "http://candygridsystem.com",
+  "license": "MIT",
   "authors": [
     {
       "name": "Andrea Mariotti",
       "email": "andreamariotti1983@gmail.com"
     }
   ],
-  "homepage": "http://candygridsystem.com",
-  "license": "MIT"
+  "replace": {
+    "twitter/bootstrap": "self.version"
+  }
 }
