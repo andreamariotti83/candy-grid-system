@@ -18,6 +18,6 @@
     }
   ],
   "replace": {
-    "twitter/bootstrap": "self.version"
+    "andreamariotti83/candy-grid-system": "self.version"
   }
 }
