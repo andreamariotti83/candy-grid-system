@@ -16,8 +16,5 @@
       "name": "Andrea Mariotti",
       "email": "andreamariotti1983@gmail.com"
     }
-  ],
-  "replace": {
-    "andreamariotti83/candy-grid-system": "self.version"
-  }
+  ]
 }
