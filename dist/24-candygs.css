@@ -83,6 +83,9 @@ candy - settings
     background-size: contain;
 }
 @media screen and (max-width: 767px) {
+    .showgs {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACgAAAAABCAMAAAAlpgcBAAAACVBMVEX75OT////75OSz9PsRAAAAA3RSTlMAAIAXzkf+AAAAK0lEQVR4AWNgxAWYBj9gIBkwjfpq1FOjnhqNqlFPjRRfjXpq1FOjvmLEBQCgRQ+DAcy5IwAAAABJRU5ErkJggg==');
+    }
     .showgs .showgs {
         background-image: none;
     }
@@ -98,33 +101,33 @@ candy - settings
 }
 
 .candygs [class*=grid] {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 }
 .candygs [class*=grid] .row{
-    margin-left: -1%;
-    margin-right: -1%;
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
 }
 
 @media (min-width: 768px) {
     .candygs [class*=grid] {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 0.3125rem;
+        padding-right: 0.3125rem;
     }
     .candygs [class*=grid] .row{
-        margin-left: -5px;
-        margin-right: -5px;
+        margin-left: -0.3125rem;
+        margin-right: -0.3125rem;
     }
 }
 
 @media (min-width: 1200px) {
     .candygs [class*=grid] {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
     }
     .candygs [class*=grid] .row{
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -0.625rem;
+        margin-right: -0.625rem;
     }
 }
 
@@ -135,10 +138,6 @@ candy - settings
 }
 
 @media (max-width: 767px) {
-    .candygs.mobile {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
     .candygs.mobile [class*=grid-xs] {
         display: inline;
         float: left;
@@ -159,126 +158,66 @@ candy - settings
 
 @media (max-width: 767px) {
     /* -- mobile - xs -- */
-    .candygs.mobile .grid-xs-1  {width: 4.16666667%;}
-    .candygs.mobile .grid-xs-2  {width: 8.33333333%;}
-    .candygs.mobile .grid-xs-3  {width: 12.5%;}
-    .candygs.mobile .grid-xs-4  {width: 16.66666667%;}
-    .candygs.mobile .grid-xs-5  {width: 20.83333333%;}
-    .candygs.mobile .grid-xs-6  {width: 25.0%;}
-    .candygs.mobile .grid-xs-7  {width: 29.16666667%;}
-    .candygs.mobile .grid-xs-8  {width: 33.33333333%;}
-    .candygs.mobile .grid-xs-9  {width: 37.5%;}
-    .candygs.mobile .grid-xs-10 {width: 41.66666667%;}
-    .candygs.mobile .grid-xs-11 {width: 45.83333333%;}
-    .candygs.mobile .grid-xs-12 {width: 50.0%;}
-    .candygs.mobile .grid-xs-13 {width: 54.16666667%;}
-    .candygs.mobile .grid-xs-14 {width: 58.33333333%;}
-    .candygs.mobile .grid-xs-15 {width: 62.5%;}
-    .candygs.mobile .grid-xs-16 {width: 66.66666667%;}
-    .candygs.mobile .grid-xs-17 {width: 70.83333333%;}
-    .candygs.mobile .grid-xs-18 {width: 75.0%;}
-    .candygs.mobile .grid-xs-19 {width: 79.16666667%;}
-    .candygs.mobile .grid-xs-20 {width: 83.33333333%;}
-    .candygs.mobile .grid-xs-21 {width: 87.5%;}
-    .candygs.mobile .grid-xs-22 {width: 91.66666667%;}
-    .candygs.mobile .grid-xs-23 {width: 95.83333333%;}
-    .candygs.mobile .grid-xs-24 {width: 100.0%;}
+    .candygs.mobile .grid-xs-1  {width: 8.33333333%;}
+    .candygs.mobile .grid-xs-2  {width: 16.66666667%;}
+    .candygs.mobile .grid-xs-3  {width: 25.0%;}
+    .candygs.mobile .grid-xs-4  {width: 33.33333333%;}
+    .candygs.mobile .grid-xs-5  {width: 41.66666667%;}
+    .candygs.mobile .grid-xs-6  {width: 50.0%;}
+    .candygs.mobile .grid-xs-7  {width: 58.33333333%;}
+    .candygs.mobile .grid-xs-8  {width: 66.66666667%;}
+    .candygs.mobile .grid-xs-9  {width: 75.0%;}
+    .candygs.mobile .grid-xs-10 {width: 83.33333333%;}
+    .candygs.mobile .grid-xs-11 {width: 91.66666667%;}
+    .candygs.mobile .grid-xs-12 {width: 100.0%;}
 
-    .candygs.mobile .prefix-xs-1  {margin-left: 4.16666667%;}
-    .candygs.mobile .prefix-xs-2  {margin-left: 8.33333333%;}
-    .candygs.mobile .prefix-xs-3  {margin-left: 12.5%;}
-    .candygs.mobile .prefix-xs-4  {margin-left: 16.66666667%;}
-    .candygs.mobile .prefix-xs-5  {margin-left: 20.83333333%;}
-    .candygs.mobile .prefix-xs-6  {margin-left: 25.0%;}
-    .candygs.mobile .prefix-xs-7  {margin-left: 29.16666667%;}
-    .candygs.mobile .prefix-xs-8  {margin-left: 33.33333333%;}
-    .candygs.mobile .prefix-xs-9  {margin-left: 37.5%;}
-    .candygs.mobile .prefix-xs-10 {margin-left: 41.66666667%;}
-    .candygs.mobile .prefix-xs-11 {margin-left: 45.83333333%;}
-    .candygs.mobile .prefix-xs-12 {margin-left: 50.0%;}
-    .candygs.mobile .prefix-xs-13 {margin-left: 54.16666667%;}
-    .candygs.mobile .prefix-xs-14 {margin-left: 58.33333333%;}
-    .candygs.mobile .prefix-xs-15 {margin-left: 62.5%;}
-    .candygs.mobile .prefix-xs-16 {margin-left: 66.66666667%;}
-    .candygs.mobile .prefix-xs-17 {margin-left: 70.83333333%;}
-    .candygs.mobile .prefix-xs-18 {margin-left: 75.0%;}
-    .candygs.mobile .prefix-xs-19 {margin-left: 79.16666667%;}
-    .candygs.mobile .prefix-xs-20 {margin-left: 83.33333333%;}
-    .candygs.mobile .prefix-xs-21 {margin-left: 87.5%;}
-    .candygs.mobile .prefix-xs-22 {margin-left: 91.66666667%;}
-    .candygs.mobile .prefix-xs-23 {margin-left: 95.83333333%;}
+    .candygs.mobile .prefix-xs-1  {margin-left: 8.33333333%;}
+    .candygs.mobile .prefix-xs-2  {margin-left: 16.66666667%;}
+    .candygs.mobile .prefix-xs-3  {margin-left: 25.0%;}
+    .candygs.mobile .prefix-xs-4  {margin-left: 33.33333333%;}
+    .candygs.mobile .prefix-xs-5  {margin-left: 41.66666667%;}
+    .candygs.mobile .prefix-xs-6  {margin-left: 50.0%;}
+    .candygs.mobile .prefix-xs-7  {margin-left: 58.33333333%;}
+    .candygs.mobile .prefix-xs-8  {margin-left: 66.66666667%;}
+    .candygs.mobile .prefix-xs-9  {margin-left: 75.0%;}
+    .candygs.mobile .prefix-xs-10 {margin-left: 83.33333333%;}
+    .candygs.mobile .prefix-xs-11 {margin-left: 91.66666667%;}
 
-    .candygs.mobile .suffix-xs-1  {margin-right: 4.16666667%;}
-    .candygs.mobile .suffix-xs-2  {margin-right: 8.33333333%;}
-    .candygs.mobile .suffix-xs-3  {margin-right: 12.5%;}
-    .candygs.mobile .suffix-xs-4  {margin-right: 16.66666667%;}
-    .candygs.mobile .suffix-xs-5  {margin-right: 20.83333333%;}
-    .candygs.mobile .suffix-xs-6  {margin-right: 25.0%;}
-    .candygs.mobile .suffix-xs-7  {margin-right: 29.16666667%;}
-    .candygs.mobile .suffix-xs-8  {margin-right: 33.33333333%;}
-    .candygs.mobile .suffix-xs-9  {margin-right: 37.5%;}
-    .candygs.mobile .suffix-xs-10 {margin-right: 41.66666667%;}
-    .candygs.mobile .suffix-xs-11 {margin-right: 45.83333333%;}
-    .candygs.mobile .suffix-xs-12 {margin-right: 50.0%;}
-    .candygs.mobile .suffix-xs-13 {margin-right: 54.16666667%;}
-    .candygs.mobile .suffix-xs-14 {margin-right: 58.33333333%;}
-    .candygs.mobile .suffix-xs-15 {margin-right: 62.5%;}
-    .candygs.mobile .suffix-xs-16 {margin-right: 66.66666667%;}
-    .candygs.mobile .suffix-xs-17 {margin-right: 70.83333333%;}
-    .candygs.mobile .suffix-xs-18 {margin-right: 75.0%;}
-    .candygs.mobile .suffix-xs-19 {margin-right: 79.16666667%;}
-    .candygs.mobile .suffix-xs-20 {margin-right: 83.33333333%;}
-    .candygs.mobile .suffix-xs-21 {margin-right: 87.5%;}
-    .candygs.mobile .suffix-xs-22 {margin-right: 91.66666667%;}
-    .candygs.mobile .suffix-xs-23 {margin-right: 95.83333333%;}
+    .candygs.mobile .suffix-xs-1  {margin-right: 8.33333333%;}
+    .candygs.mobile .suffix-xs-2  {margin-right: 16.66666667%;}
+    .candygs.mobile .suffix-xs-3  {margin-right: 25.0%;}
+    .candygs.mobile .suffix-xs-4  {margin-right: 33.33333333%;}
+    .candygs.mobile .suffix-xs-5  {margin-right: 41.66666667%;}
+    .candygs.mobile .suffix-xs-6  {margin-right: 50.0%;}
+    .candygs.mobile .suffix-xs-7  {margin-right: 58.33333333%;}
+    .candygs.mobile .suffix-xs-8  {margin-right: 66.66666667%;}
+    .candygs.mobile .suffix-xs-9  {margin-right: 75.0%;}
+    .candygs.mobile .suffix-xs-10 {margin-right: 83.33333333%;}
+    .candygs.mobile .suffix-xs-11 {margin-right: 91.66666667%;}
 
-    .candygs.mobile .push-xs-1  {left: 4.16666667%;}
-    .candygs.mobile .push-xs-2  {left: 8.33333333%;}
-    .candygs.mobile .push-xs-3  {left: 12.5%;}
-    .candygs.mobile .push-xs-4  {left: 16.66666667%;}
-    .candygs.mobile .push-xs-5  {left: 20.83333333%;}
-    .candygs.mobile .push-xs-6  {left: 25.0%;}
-    .candygs.mobile .push-xs-7  {left: 29.16666667%;}
-    .candygs.mobile .push-xs-8  {left: 33.33333333%;}
-    .candygs.mobile .push-xs-9  {left: 37.5%;}
-    .candygs.mobile .push-xs-10 {left: 41.66666667%;}
-    .candygs.mobile .push-xs-11 {left: 45.83333333%;}
-    .candygs.mobile .push-xs-12 {left: 50.0%;}
-    .candygs.mobile .push-xs-13 {left: 54.16666667%;}
-    .candygs.mobile .push-xs-14 {left: 58.33333333%;}
-    .candygs.mobile .push-xs-15 {left: 62.5%;}
-    .candygs.mobile .push-xs-16 {left: 66.66666667%;}
-    .candygs.mobile .push-xs-17 {left: 70.83333333%;}
-    .candygs.mobile .push-xs-18 {left: 75.0%;}
-    .candygs.mobile .push-xs-19 {left: 79.16666667%;}
-    .candygs.mobile .push-xs-20 {left: 83.33333333%;}
-    .candygs.mobile .push-xs-21 {left: 87.5%;}
-    .candygs.mobile .push-xs-22 {left: 91.66666667%;}
-    .candygs.mobile .push-xs-23 {left: 95.83333333%;}
+    .candygs.mobile .push-xs-1  {left: 8.33333333%;}
+    .candygs.mobile .push-xs-2  {left: 16.66666667%;}
+    .candygs.mobile .push-xs-3  {left: 25.0%;}
+    .candygs.mobile .push-xs-4  {left: 33.33333333%;}
+    .candygs.mobile .push-xs-5  {left: 41.66666667%;}
+    .candygs.mobile .push-xs-6  {left: 50.0%;}
+    .candygs.mobile .push-xs-7  {left: 58.33333333%;}
+    .candygs.mobile .push-xs-8  {left: 66.66666667%;}
+    .candygs.mobile .push-xs-9  {left: 75.0%;}
+    .candygs.mobile .push-xs-10 {left: 83.33333333%;}
+    .candygs.mobile .push-xs-11 {left: 91.66666667%;}
 
-    .candygs.mobile .pull-xs-1  {left: -4.16666667%;}
-    .candygs.mobile .pull-xs-2  {left: -8.33333333%;}
-    .candygs.mobile .pull-xs-3  {left: -12.5%;}
-    .candygs.mobile .pull-xs-4  {left: -16.66666667%;}
-    .candygs.mobile .pull-xs-5  {left: -20.83333333%;}
-    .candygs.mobile .pull-xs-6  {left: -25.0%;}
-    .candygs.mobile .pull-xs-7  {left: -29.16666667%;}
-    .candygs.mobile .pull-xs-8  {left: -33.33333333%;}
-    .candygs.mobile .pull-xs-9  {left: -37.5%;}
-    .candygs.mobile .pull-xs-10 {left: -41.66666667%;}
-    .candygs.mobile .pull-xs-11 {left: -45.83333333%;}
-    .candygs.mobile .pull-xs-12 {left: -50.0%;}
-    .candygs.mobile .pull-xs-13 {left: -54.16666667%;}
-    .candygs.mobile .pull-xs-14 {left: -58.33333333%;}
-    .candygs.mobile .pull-xs-15 {left: -62.5%;}
-    .candygs.mobile .pull-xs-16 {left: -66.66666667%;}
-    .candygs.mobile .pull-xs-17 {left: -70.83333333%;}
-    .candygs.mobile .pull-xs-18 {left: -75.0%;}
-    .candygs.mobile .pull-xs-19 {left: -79.16666667%;}
-    .candygs.mobile .pull-xs-20 {left: -83.33333333%;}
-    .candygs.mobile .pull-xs-21 {left: -87.5%;}
-    .candygs.mobile .pull-xs-22 {left: -91.66666667%;}
-    .candygs.mobile .pull-xs-23 {left: -95.83333333%;}
+    .candygs.mobile .pull-xs-1  {left: -8.33333333%;}
+    .candygs.mobile .pull-xs-2  {left: -16.66666667%;}
+    .candygs.mobile .pull-xs-3  {left: -25.0%;}
+    .candygs.mobile .pull-xs-4  {left: -33.33333333%;}
+    .candygs.mobile .pull-xs-5  {left: -41.66666667%;}
+    .candygs.mobile .pull-xs-6  {left: -50.0%;}
+    .candygs.mobile .pull-xs-7  {left: -58.33333333%;}
+    .candygs.mobile .pull-xs-8  {left: -66.66666667%;}
+    .candygs.mobile .pull-xs-9  {left: -75.0%;}
+    .candygs.mobile .pull-xs-10 {left: -83.33333333%;}
+    .candygs.mobile .pull-xs-11 {left: -91.66666667%;}
 
     /* -- small -- */
     .candygs.small .grid-1  {width: 4.16666667%;}
