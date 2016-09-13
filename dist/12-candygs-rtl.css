@@ -82,7 +82,7 @@ candy - settings
     -o-background-size: contain;
     background-size: contain;
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .showgs .showgs {
         background-image: none;
     }
