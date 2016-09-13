@@ -4,7 +4,7 @@
 
 * [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.2.0.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
-* Install with [Composer](https://getcomposer.org): `composer require candygs/candy-grid-system`.
+* Install with [Composer](https://getcomposer.org): `composer require andreamariotti83/candy-grid-system`.
 
 ### HTML:
 
