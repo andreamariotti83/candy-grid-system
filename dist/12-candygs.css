@@ -12,7 +12,7 @@
 /*------------------------------
 candy - settings
 ------------------------------*/
-[class*=candygs-container] .container {
+[class*=candygs-container] {
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,50 +26,50 @@ candy - settings
 
 /* -- set width container -- */
 @media (min-width: 768px) {
-    [class*=candygs-container] .container {
+    [class*=candygs-container] {
         width: 720px;
     }
 }
 @media (min-width: 992px) {
-    [class*=candygs-container] .container {
+    [class*=candygs-container] {
         width: 960px;
     }
 }
 @media (min-width: 1200px) {
-    [class*=candygs-container] .container {
+    [class*=candygs-container] {
         width: 1200px;
     }
 }
 @media (min-width: 1560px) {
-    [class*=candygs-container] .container {
+    [class*=candygs-container] {
         width: 1560px;
     }
 }
 @media (min-width: 1920px) {
-    [class*=candygs-container] .container {
+    [class*=candygs-container] {
         width: 1920px;
     }
 }
 
 /* -- set max-width -- */
-.candygs-container-sm .container {
+.candygs-container-sm {
     max-width: 720px;
 }
-.candygs-container-md .container {
+.candygs-container-md {
     max-width: 960px;
 }
-.candygs-container-lg .container {
+.candygs-container-lg {
     max-width: 1200px;
 }
-.candygs-container-xl .container {
+.candygs-container-xl {
     max-width: 1560px;
 }
 
 /* -- set min-width -- */
-.candygs.small .container {
+.candygs.small {
     min-width: 720px;
 }
-.candygs.medium .container {
+.candygs.medium {
     min-width: 960px;
 }
 
@@ -89,7 +89,6 @@ candy - settings
 }
 
 /* -- set row & grid -- */
-/* -- don't to conflict with zurb.foundation -- */
 .candygs .row {
     margin: 0;
     max-width: inherit;
@@ -841,21 +840,17 @@ candy - settings
 
 /* -- clearfix -- */
 .clearfix:before,
-.container:before,
 .candygs .row:before,
 .clearfix:after,
-.container:after,
 .candygs .row:after {
     display: table;
     content: " ";
 }
 .clearfix:after,
-.container:after,
 .candygs .row:after{
     clear: both;
 }
 .clearfix,
-.container,
 .candygs .row {
     zoom: 1;
 }
