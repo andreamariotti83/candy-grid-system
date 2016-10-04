@@ -11,13 +11,13 @@
 To use the Grid, you need to include the file with Grid number **12**, **16** or **24** that you want to use in the section `<head>` of the page.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.2.0/12-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/12-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.2.0/16-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/16-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.2.0/24-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/24-candygs.min.css">
 ```
 
 Add the class to set up your default layout, whether fixed or responsive. You can choose the layout among **17 different options** and  setting up any up to 8 classes.
@@ -25,56 +25,48 @@ Add the class to set up your default layout, whether fixed or responsive. You ca
 * **candygs** : this is necessary to set up the values of your layout and Grid, in order to use the Candy Grid System.
 
 ```html
-<body>
-	<div id="page" class="page candygs"></div>
+<body class="candygs">
+	<div class="..."></div>
 </body>
 ```
 
 First, decide whether the layout will be set to, **small** to high, or **medium** to high, responsive **mobile** mode;
 * **mobile** : sets up a responsive layout of 0 to 100%.
-* **small** : sets up a responsive layout  of 720px to 100% `min-width: 720px`
-* **medium** : sets up a responsive layout of 960px to 100% `min-width: 960px`
+* **min-container-sm** : sets up a responsive layout  of 720px to 100% `min-width: 720px`
+* **min-container-md** : sets up a responsive layout of 960px to 100% `min-width: 960px`
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile"></div>
-</body>
-```
-
-* **showgs** : This class enables you to visualize the Grid in the background
-
-```html
-<body>
-	<div id="page" class="page candygs mobile showgs"></div>
+<body class="candygs mobile">
+	<div class="..."></div>
 </body>
 ```
 
 Then, set up a container for the layout with class **candygs-container** and its variables; a *max-width*, by selecting one of 5 options
 * **candygs-container** : Set up a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
-  * **candygs-container-xl** : Set up a *max-width* container that will be no larger than 1560px
-  * **candygs-container-lg** : Set up a *max-width* container that will be no larger than 1200px
-  * **candygs-container-md** : Set up a *max-width* container that will be no larger than 960px
-  * **candygs-container-sm** : Set up a *max-width* container that will be no larger than 720px
+  * **max-container-xl** : Set up a *max-width* container that will be no larger than 1560px
+  * **max-container-lg** : Set up a *max-width* container that will be no larger than 1200px
+  * **max-container-md** : Set up a *max-width* container that will be no larger than 960px
+  * **max-container-sm** : Set up a *max-width* container that will be no larger than 720px
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile candygs-container showgs"></div>
+<body class="candygs mobile max-container">
+	<div class="..."></div>
 </body>
 ```
 
 Now you can set up the Grids, which operate in accordance with the chosen layout.
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile candygs-container showgs">
-		<div class="grid-8">
-			<div class="row">
-				<div class="grid-6"></div>
-				<div class="grid-6"></div>
-			</div>
-		</div>
-		<div class="grid-4"></div>
-	</div>
+<body class="candygs mobile max-container">
+    <div class="container">
+        <div class="grid-8">
+            <div class="row">
+                <div class="grid-6"></div>
+                <div class="grid-6"></div>
+            </div>
+        </div>
+        <div class="grid-4"></div>
+    </div>
 </body>
 ```
 
