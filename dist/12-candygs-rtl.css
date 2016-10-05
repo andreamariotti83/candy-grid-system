@@ -1,5 +1,5 @@
 /*!
- * Candy grid system v1.2.0 (http://candygridsystem.com)
+ * Candy grid system v1.3.0 (http://candygridsystem.com)
  * Copyright 2016 Andrea Mariotti
  * Licensed under MIT (https://github.com/andreamariotti83/candy-grid-system/blob/master/LICENSE)
  */
@@ -12,7 +12,7 @@
 /*------------------------------
 candy - settings
 ------------------------------*/
-[class*=candygs-container] {
+[class*=candygs-container] .container {
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,66 +26,51 @@ candy - settings
 
 /* -- set width container -- */
 @media (min-width: 768px) {
-    [class*=candygs-container] {
+    [class*=candygs-container] .container {
         width: 720px;
     }
 }
 @media (min-width: 992px) {
-    [class*=candygs-container] {
+    [class*=candygs-container] .container {
         width: 960px;
     }
 }
 @media (min-width: 1200px) {
-    [class*=candygs-container] {
+    [class*=candygs-container] .container {
         width: 1200px;
     }
 }
 @media (min-width: 1560px) {
-    [class*=candygs-container] {
+    [class*=candygs-container] .container {
         width: 1560px;
     }
 }
 @media (min-width: 1920px) {
-    [class*=candygs-container] {
+    [class*=candygs-container] .container {
         width: 1920px;
     }
 }
 
 /* -- set max-width -- */
-.candygs-container-sm {
+.candygs-container-sm .container {
     max-width: 720px;
 }
-.candygs-container-md {
+.candygs-container-md .container {
     max-width: 960px;
 }
-.candygs-container-lg {
+.candygs-container-lg .container {
     max-width: 1200px;
 }
-.candygs-container-xl {
+.candygs-container-xl .container {
     max-width: 1560px;
 }
 
 /* -- set min-width -- */
-.candygs.small {
+.candygs.small .container {
     min-width: 720px;
 }
-.candygs.medium {
+.candygs.medium .container {
     min-width: 960px;
-}
-
-/* background grid */
-.showgs,
-.showgs .showgs {
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACgAAAAABCAMAAAAlpgcBAAAACVBMVEX75OT////75OSz9PsRAAAAA3RSTlMAAIAXzkf+AAAAK0lEQVR4AWNgxAWYBj9gIBkwjfpq1FOjnhqNqlFPjRRfjXpq1FOjvmLEBQCgRQ+DAcy5IwAAAABJRU5ErkJggg==');
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-@media (max-width: 767px) {
-    .showgs .showgs {
-        background-image: none;
-    }
 }
 
 /* -- set row & grid -- */
