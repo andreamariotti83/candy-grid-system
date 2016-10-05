@@ -16,11 +16,5 @@
       "name": "Andrea Mariotti",
       "email": "andreamariotti1983@gmail.com"
     }
-  ],
-  "autoload": {
-    "psr-0": {
-      "candygs\\candygridsystem\\": ""
-    }
-  },
-  "target-dir": "candygs/candygridsystem"
+  ]
 }
