@@ -2,9 +2,9 @@
 
 ## Quick start
 
-* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.2.0.zip).
+* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.3.0.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
-* Install with [Composer](https://getcomposer.org): `composer require candygs/candygridsystem`.
+* Install with [Composer](https://getcomposer.org): `composer require candygs/candy-grid-system`.
 
 ### HTML:
 
@@ -25,8 +25,8 @@ Add the class to set up your default layout, whether fixed or responsive. You ca
 * **candygs** : this is necessary to set up the values of your layout and Grid, in order to use the Candy Grid System.
 
 ```html
-<body>
-	<div id="page" class="page candygs"></div>
+<body class="candygs">
+	<div class="..."></div>
 </body>
 ```
 
@@ -36,16 +36,8 @@ First, decide whether the layout will be set to, **small** to high, or **medium*
 * **medium** : sets up a responsive layout of 960px to 100% `min-width: 960px`
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile"></div>
-</body>
-```
-
-* **showgs** : This class enables you to visualize the Grid in the background
-
-```html
-<body>
-	<div id="page" class="page candygs mobile showgs"></div>
+<body class="candygs mobile">
+	<div class="..."></div>
 </body>
 ```
 
@@ -57,16 +49,16 @@ Then, set up a container for the layout with class **candygs-container** and its
   * **candygs-container-sm** : Set up a *max-width* container that will be no larger than 720px
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile candygs-container showgs"></div>
+<body class="candygs mobile candygs-container">
+	<div class="..."></div>
 </body>
 ```
 
-Now you can set up the Grids, which operate in accordance with the chosen layout.
+Now you can set up the Container and Grid, which operate in accordance with the chosen layout.
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile candygs-container showgs">
+<body class="candygs mobile candygs-container">
+	<div class="container">
 		<div class="grid-8">
 			<div class="row">
 				<div class="grid-6"></div>
@@ -88,8 +80,8 @@ You can also choose different values, depending on the screen resolution.
 * **grid-xxl-** : `@media (min-width: 1920px)`
 
 ```html
-<body>
-	<div id="page" class="page candygs mobile candygs-container showgs">
+<body class="candygs mobile candygs-container">
+	<div class="container">
 		<div class="grid-xs-8 grid-sm-8 grid-md-7 grid-lg-6 grid-xl-5 grid-xxl-4"></div>
 		<div class="grid-xs-4 grid-sm-4 grid-md-5 grid-lg-6 grid-xl-7 grid-xxl-8"></div>
 	</div>
