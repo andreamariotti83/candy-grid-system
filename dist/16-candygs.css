@@ -19,7 +19,7 @@
 
 /* -- set width container fluid -- */
 .candygs.fluid .container {
-    width: auto;
+    width: 100%;
 }
 
 /* -- set width container -- */
