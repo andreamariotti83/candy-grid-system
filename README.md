@@ -2,7 +2,7 @@
 
 ## Quick start
 
-* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v1.3.0.zip).
+* [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v2.0.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
 * Install with [Composer](https://getcomposer.org): `composer require candygs/candy-grid-system`.
 
@@ -11,53 +11,60 @@
 To use the Grid, you need to include the file with Grid number **12**, **16** or **24** that you want to use in the section `<head>` of the page.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/12-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/2.0/12-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/16-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/2.0/16-candygs.min.css">
 ```
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/1.3.0/24-candygs.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/candy-grid-system/2.0/24-candygs.min.css">
 ```
 
-Add the class to set up your default layout, whether fixed or responsive. You can choose the layout among **17 different options** and  setting up any up to 8 classes.
-
-* **candygs** : this is necessary to set up the values of your layout and Grid, in order to use the Candy Grid System.
+***candygs*** : This class is required to use to set the values of the grids.
 
 ```html
 <body class="candygs">
-	<div class="..."></div>
+    <div class="container">
+        <div class="..."></div>
+    </div>
 </body>
 ```
 
-First, decide whether the layout will be set to, **small** to high, or **medium** to high, responsive **mobile** mode;
-* **mobile** : sets up a responsive layout of 0 to 100%.
-* **small** : sets up a responsive layout  of 720px to 100% `min-width: 720px`
-* **medium** : sets up a responsive layout of 960px to 100% `min-width: 960px`
+***fluid*** : This class is required to have a fluid layout, setting the width of the container to 100%.
 
 ```html
-<body class="candygs mobile">
-	<div class="..."></div>
+<body class="candygs fluid">
+    <div class="container">
+        <div class="..."></div>
+    </div>
 </body>
 ```
 
-Then, set up a container for the layout with class **candygs-container** and its variables; a *max-width*, by selecting one of 5 options
-* **candygs-container** : Set up a *max-width* container for each resolution - 720px - 960px - 1200px - 1560px - 1920px
-  * **candygs-container-xl** : Set up a *max-width* container that will be no larger than 1560px
-  * **candygs-container-lg** : Set up a *max-width* container that will be no larger than 1200px
-  * **candygs-container-md** : Set up a *max-width* container that will be no larger than 960px
-  * **candygs-container-sm** : Set up a *max-width* container that will be no larger than 720px
+***container*** : It has a default width for each resolution - 720px - 960px - 1200px - 1560px - 1920px
+
+It is possible to set a minimum width and / or maximum container
+* ***min-widht container*** :
+    * ***mim-sm*** : Set up a **min-width** to the container, which will be no smaller than 720px
+    * ***min-md*** : Set up a **min-width** to the container, which will be no smaller than 960px
+
+* ***max-widht container*** :
+    * ***max-sm*** : Set up a **max-width** to the container, which will be no larger than 720px
+    * ***max-md*** : Set up a **max-width** to the container, which will be no larger than 960px
+    * ***max-lg*** : Set up a **max-width** to the container, which will be no larger than 1200px
+    * ***max-xl*** : Set up a **max-width** to the container, which will be no larger than 1560px
 
 ```html
-<body class="candygs mobile candygs-container">
-	<div class="..."></div>
+<body class="candygs min-sm max-lg">
+    <div class="container">
+        <div class="..."></div>
+    </div>
 </body>
 ```
 
-Now you can set up the Container and Grid, which operate in accordance with the chosen layout.
+Now you can set the grids depending on your needs.
 
 ```html
-<body class="candygs mobile candygs-container">
+<body class="candygs">
 	<div class="container">
 		<div class="grid-8">
 			<div class="row">
@@ -71,16 +78,16 @@ Now you can set up the Container and Grid, which operate in accordance with the 
 ```
 
 You can also choose different values, depending on the screen resolution.
-* **grid-** : For all resolutions
-* **grid-xs-** : Only for mobile `@media (max-width: 767px)`
-* **grid-sm-** : `@media (min-width: 768px)`
-* **grid-md-** : `@media (min-width: 992px)`
-* **grid-lg-** : `@media (min-width: 1200px)`
-* **grid-xl-** : `@media (min-width: 1560px)`
-* **grid-xxl-** : `@media (min-width: 1920px)`
+* ***grid-*** : For all resolutions
+* ***grid-xs-*** : Only for mobile `@media (max-width: 767px)`
+* ***grid-sm-*** : `@media (min-width: 768px)`
+* ***grid-md-*** : `@media (min-width: 992px)`
+* ***grid-lg-*** : `@media (min-width: 1200px)`
+* ***grid-xl-*** : `@media (min-width: 1560px)`
+* ***grid-xxl-*** : `@media (min-width: 1920px)`
 
 ```html
-<body class="candygs mobile candygs-container">
+<body class="candygs">
 	<div class="container">
 		<div class="grid-xs-8 grid-sm-8 grid-md-7 grid-lg-6 grid-xl-5 grid-xxl-4"></div>
 		<div class="grid-xs-4 grid-sm-4 grid-md-5 grid-lg-6 grid-xl-7 grid-xxl-8"></div>
