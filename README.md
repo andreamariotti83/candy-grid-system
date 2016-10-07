@@ -42,6 +42,14 @@ To use the Grid, you need to include the file with Grid number **12**, **16** or
 
 ***container*** : It has a default width for each resolution - 720px - 960px - 1200px - 1560px - 1920px
 
+```html
+<body class="candygs">
+    <div class="container">
+        <div class="..."></div>
+    </div>
+</body>
+```
+
 It is possible to set a minimum width and / or maximum container
 * ***min-widht container*** :
     * ***mim-sm*** : Set up a **min-width** to the container, which will be no smaller than 720px
