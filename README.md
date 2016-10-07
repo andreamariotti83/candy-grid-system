@@ -3,6 +3,7 @@
 ## Quick start
 
 * [Download the latest release](https://github.com/andreamariotti83/candy-grid-system/archive/v2.0.0.zip).
+* [Download dist css](https://github.com/andreamariotti83/candy-grid-system/releases/download/v2.0.0/candy-grid-system-2.0.0-dist.zip).
 * Clone the repo: `git clone https://github.com/andreamariotti83/candy-grid-system.git`.
 * Install with [Composer](https://getcomposer.org): `composer require candygs/candy-grid-system`.
 
