@@ -52,7 +52,7 @@ To use the Grid, you need to include the file with Grid number **12**, **16** or
 
 It is possible to set a minimum width and / or maximum container
 * ***min-widht container*** :
-    * ***mim-sm*** : Set up a **min-width** to the container, which will be no smaller than 720px
+    * ***min-sm*** : Set up a **min-width** to the container, which will be no smaller than 720px
     * ***min-md*** : Set up a **min-width** to the container, which will be no smaller than 960px
 
 * ***max-widht container*** :
@@ -63,6 +63,9 @@ It is possible to set a minimum width and / or maximum container
 
 ```html
 <body class="candygs min-sm max-lg">
+    <div class="container">
+        <div class="..."></div>
+    </div>
     <div class="container">
         <div class="..."></div>
     </div>
