@@ -1,0 +1,25 @@
+{
+  "name": "candy-grid-system",
+  "homepage": "https://github.com/andreamariotti83/candy-grid-system",
+  "description": "The simple and intuitive grid, configurable layout for your every need... Designed and optimized to improve the development of a website. You can choose for 12, 16 or 24 columns.",
+  "main": "dist/12-candy.min.css",
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "responsive",
+    "front-end",
+    "grid"
+  ],
+  "authors": [
+    "Andrea Mariotti"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
